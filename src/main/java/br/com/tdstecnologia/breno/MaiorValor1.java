@@ -2,7 +2,7 @@ package br.com.tdstecnologia.breno;
 
 import javax.swing.JOptionPane;
 
-public class MaiorValor 
+public class MaiorValor1 
 {
     public static void main(String[] args) 
     {
