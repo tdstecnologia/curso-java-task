@@ -1,22 +1,19 @@
 package br.com.tdstecnologia.luciana;
 
-import java.util.Scanner;
+import javax.swing.JOptionPane;
+        
 public class SomarNum32 {
     public static void main(String[] args){
-              System.out.println("Informe um número: ");
-        int num = new Scanner(System.in).nextInt();
-        int soma = 0;
-     
 
-        while(num>0) {
-           
-            soma += (num % 10);
-            
-            num /= 10;//num = num / 10;
-            System.out.println("O valor de soma é: " + soma);
-        }
-        System.out.println();
-        System.out.println("A soma dos algarismos é: " + soma);
-
-    }
-}
+        Integer valorInformadoPelousuario = 50;
+        String valorInformadoPeloUsuario = JOptionPane.showInputDialog(null,"Digite um numero:");
+        
+        Integer contador = 0;
+                
+        for(int i= 0; i< valorInformadoPelousuario;i++) {
+            contador = contador +i;
+            }
+            JOptionPane.showMessageDialog(null,"A soma dos numeros e:"+contador);
+            }
+        
+      }
