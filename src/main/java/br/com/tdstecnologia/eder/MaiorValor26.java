@@ -2,7 +2,7 @@ package br.com.tdstecnologia.eder;
 
 import javax.swing.JOptionPane;
 
-public class MaiorValor {
+public class MaiorValor26 {
 
     /*
     Informar o maior valor
